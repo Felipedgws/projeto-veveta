@@ -35,6 +35,7 @@ header > h1{
 }
 
 header > p{
+    font-size: 2.5vw;
     padding-bottom: 25px;
 }
 
