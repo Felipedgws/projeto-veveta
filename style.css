@@ -25,17 +25,20 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    background-image: url(./imagens/roxoso.jpg);
+    background-position: center, center;
+    background-size: cover;
 }
 
 header > h1{
-    font-size: 7vw;
+    font-size: 50px;
     font-family: valentine;
     padding: 25px;
     font-variant: small-caps;
 }
 
 header > p{
-    font-size: 2.5vw;
+    font-size: 20px;
     padding-bottom: 25px;
 }
 
@@ -44,23 +47,55 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 3vw;
+    font-size: 20px;
 }
 
 section.normal{
     background-color: white;
-    color: black;
+    color: rgb(255, 255, 255);
+    background-image: url(./imagens/azulao.jpg);
+    background-position: center, center;
+    background-size: cover;
+    text-align: center;
 }
 
 section.imagem{
     background-color: rgb(40, 40, 40);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.619);
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     padding: 5px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.368);
+}
+
+section#img01{
+    background-image: url(./imagens/bigveveta.jpg);
+    background-position: center, center;
+    background-size: cover;
+
+}
+
+section#img02{
+    background-image: url(./imagens/elaeeu1.jpg);
+    background-position: center, center;
+    background-size: cover;
+    
+}
+
+section#img03{
+    background-image: url(./imagens/miniveveta.jpg);
+    background-size: cover;
+}
+
+section#img04{
+    background-image: url(./imagens/elaeeu2.png);
+    background-position: center, center;
+    background-size: cover;
+    
 }
 
 a{
@@ -73,10 +108,15 @@ footer{
     color: white;
     background-color: black;
     padding: 10px;
+    background-image: url(./imagens/roxoso.jpg);
+    background-position: center, center;
+    background-size: cover;
 }
 
 a:hover{
     text-decoration: underline;
-    background-color: gray;
+    background-color: rgb(161, 161, 161);
     color: black;
+    padding-left: 3px;
+    padding-right: 3px;
 }
