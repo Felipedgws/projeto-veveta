@@ -53,7 +53,7 @@ section{
 section.normal{
     background-color: white;
     color: rgb(255, 255, 255);
-    background-image: url(./imagens/azulao.jpg);
+    background-image: linear-gradient(to bottom, rgb(67, 0, 80), rgb(0, 0, 0));
     background-position: center, center;
     background-size: cover;
     text-align: center;
@@ -120,4 +120,5 @@ a:hover{
     color: black;
     padding-left: 3px;
     padding-right: 3px;
+    border-radius: 10px;
 }
